@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout
         run: |
-          git clone -b master https://github.com/hello1983/jd_scripts.git ~/jd_scripts
+          git clone master https://github.com/hello1983/jd_scripts.git ~/jd_scripts
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
