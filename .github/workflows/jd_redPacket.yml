@@ -1,17 +1,17 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: jd_blueCoin 京小超兑换奖品
+name: jd_redPacket 全民开红包脚本
 
 on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 17 * * *'
   # watch:
   #   types: started
   repository_dispatch:
-    types: blueCoin
+    types: redPacket
 jobs:
   build:
 
@@ -32,16 +32,14 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-${{ env.cache-name }}-${{ hashFiles('package-lock.json') }} # 使用 package-lock.json 的 Hash 作为缓存的 key。也可以使用 package.json 代替
-      - name: '运行 【京小超兑换奖品】'
-        run: | 
-          cd ~/scripts
+      - name: '运行 【全民开红包脚本】'
+        run: |
+          cd  ~/scripts
           npm install
-          node jd_blueCoin.js
+          node jd_redPacket.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
           JD_DEBUG: ${{ secrets.JD_DEBUG }}
-          MARKET_COIN_TO_BEANS: ${{ secrets.MARKET_COIN_TO_BEANS }}
-          MARKET_REWARD_NOTIFY: ${{ secrets.MARKET_REWARD_NOTIFY }}
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
