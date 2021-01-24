@@ -1,0 +1,7 @@
+
+
+# mimo
+
+hostname = api.getmimo.com
+
+^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Scripting/master/mimo.vip.js
