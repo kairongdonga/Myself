@@ -1,0 +1,15 @@
+DOMAIN-SUFFIX,emby.wtf
+
+DOMAIN-SUFFIX,plusmedia.site
+
+DOMAIN-SUFFIX,mickeycloud.com
+
+host-keyword, push.apple.com
+
+host-keyword, instagram
+
+host-keyword, google
+
+host-keyword,jmsooo
+
+host-keyword,twitter
