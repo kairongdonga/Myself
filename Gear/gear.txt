@@ -2,6 +2,6 @@
 
 # Gear  Pro 
 
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://gitee.com/mick202020/Quantumult-x/raw/master/VIP/Gear.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://cdn.app-io.workers.dev/kairongdonga/Myself/master/Gear/gear.js
 
 hostname = buy.itunes.apple.com

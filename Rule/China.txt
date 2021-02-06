@@ -1,0 +1,11 @@
+# 直连规则
+
+host-suffix, nfstar.net
+
+host-suffix, 189.cn
+
+host-keyword，sina.com
+
+host-keyword,amazon.com
+
+host-keyword,biyao.com
