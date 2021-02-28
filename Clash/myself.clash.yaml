@@ -5,32 +5,190 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 韩国03, server: sk03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 韩国04, server: sk04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 美国01, server: us01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 美国02, server: us02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 美国03, server: us03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 日本01, server: jp01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 日本02, server: jp02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 日本03, server: jp03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 新加坡01, server: sg01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 新加坡02, server: sg02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 新加坡03, server: sg03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 新加坡04, server: sg04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 台湾01, server: tw01.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 台湾02, server: tw02.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 台湾03, server: tw03.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
-  - {name: 台湾04, server: tw04.pjj.life, port: 12334, type: ssr, cipher: aes-128-cfb, password: pjj.one, protocol: auth_aes128_sha1, obfs: plain, protocol-param: 41671121:50783f24-0ddb-435e-9def-865caf56d76a, obfs-param: ""}
+  - name: 韩国04
+    server: sk04.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 美国01
+    server: us01.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 美国02
+    server: us02.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 美国03
+    server: us03.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 日本01
+    server: jp01.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 韩国03
+    server: sk03.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 日本02
+    server: jp02.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 日本03
+    server: jp03.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 新加坡01
+    server: sg01.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 台湾04
+    server: tw04.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 新加坡02
+    server: sg02.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 新加坡03
+    server: sg03.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 新加坡04
+    server: sg04.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 台湾02
+    server: tw02.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 台湾01
+    server: tw01.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
+  - name: 台湾03
+    server: tw03.pjj.life
+    port: 12334
+    type: ssr
+    cipher: aes-128-cfb
+    password: pjj.one
+    protocol: auth_aes128_sha1
+    obfs: plain
+    protocol-param: 41631848:695d270b-2416-4602-b92c-d4b48d021a37
+    obfs-param: ""
 proxy-groups:
   - name: 代理
     type: select
     proxies:
       - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
+      - 新加坡04
+      - 日本01
+      - 日本02
+      - 日本03
+      - 美国01
+      - 美国02
+      - 韩国03
+      - 韩国04
   - name: 中国
     type: select
     proxies:
+      - 美国03
       - DIRECT
-
 rules:
   - GEOIP,CN,DIRECT
   - MATCH,代理
