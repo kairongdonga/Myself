@@ -1,0 +1,9 @@
+# 爱奇艺获取cookie
+
+
+^https?:\/\/iface(\d)?\.iqiyi\.com\/ url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js
+  
+  
+  
+  
+hostname= *.iQIYI.com
