@@ -1,0 +1,8 @@
+
+#爱奇艺
+
+api.cupid.dns.iqiyi.com url reject
+kjp.cupid.iqiyi.com url reject
+t7z.cupid.iqiyi.com url reject
+kjp.cupid.iqiyi.com:80 url reject
+kjp.cupid.iqiyi.com:80 url reject
